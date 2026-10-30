@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+# Developer-local standards references are not public project content.
+/AGENTS.md
+/.cursor/rules/development-standards.mdc
+/.development-standards/POLICY.md
+/.development-standards/manifest.json
