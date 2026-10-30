@@ -9,10 +9,12 @@
 ### Build System
 
 - add portable development standards tooling ([2747f77f743d](https://github.com/maxxab/modkit-api-versioning/commit/2747f77f743dc429798dbec9d79429a2a7b21829))
+- verify immutable release artifacts ([599f6a3d9ae4](https://github.com/maxxab/modkit-api-versioning/commit/599f6a3d9ae4c86ff83b3b8faf05dda2de48d38c))
 
 ### CI/CD
 
 - verify package across supported runtimes ([f10a1c2fd651](https://github.com/maxxab/modkit-api-versioning/commit/f10a1c2fd65194d098c7efa04976c18e039f5a36))
+- publish tested releases with trusted identity ([c74cf85020a2](https://github.com/maxxab/modkit-api-versioning/commit/c74cf85020a2dd6c43e4c6fa3c9d53c4128f4bf6))
 
 ### Maintenance
 
