@@ -4,8 +4,17 @@
 
 ### Features
 
-- add configurable path API versioning (`b416b2a16594`)
+- implement generic API versioning ([3f305ce0932e](https://github.com/maxxab/modkit-api-versioning/commit/3f305ce0932e4825ad363c23ea8a7e2964b1588b))
+
+### Build System
+
+- add portable development standards tooling ([2747f77f743d](https://github.com/maxxab/modkit-api-versioning/commit/2747f77f743dc429798dbec9d79429a2a7b21829))
 
 ### CI/CD
 
-- validate event history and expand supported Python matrix (`a085b75eb149`)
+- verify package across supported runtimes ([f10a1c2fd651](https://github.com/maxxab/modkit-api-versioning/commit/f10a1c2fd65194d098c7efa04976c18e039f5a36))
+
+### Maintenance
+
+- ignore local build and environment files ([bb1827008e43](https://github.com/maxxab/modkit-api-versioning/commit/bb1827008e43538e4a280b2add29fc96043e41e3))
+- keep duplicate generated workflow local ([f95ba94b1daf](https://github.com/maxxab/modkit-api-versioning/commit/f95ba94b1daf72bacefddc9c6fb7df5fcc70220d))
