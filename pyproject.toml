@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.33,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "modkit-api-versioning"
+version = "0.1.0"
+description = "Explicit path version policies and optional FastAPI routing"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "maxxab"}]
+dependencies = []
+
+[project.optional-dependencies]
+fastapi = ["fastapi>=0.162,<0.163"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/modkit_api_versioning"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tests", "/scripts", "/examples", "/README.md", "/CHANGELOG.md", "/LICENSE", "/pyproject.toml", "/requirements-dev.txt"]
